@@ -1,0 +1,22 @@
+:root {
+	--main-link-color: #1e1edb;
+	--hover-link-color: var(--main-link-color);
+}
+
+body {
+	margin: 0; 
+	padding: 0; 
+}
+
+a {
+	color: var(--main-link-color);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--main-link-color);
+}
+
+a:hover {
+	text-decoration: underline;
+}
